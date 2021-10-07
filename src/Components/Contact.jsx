@@ -141,7 +141,7 @@ const Contact = () => {
         </div>
         <div className={classes.copyright}>
           <Typography variant="body2" color="initial">
-            @Copyright {new Date().getFullYear()} / Desarrollado por Héctor Padilla
+            @Copyright {new Date().getFullYear()} / Héctor Padilla
           </Typography>
         </div>
       </div>
