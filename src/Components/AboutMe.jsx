@@ -104,9 +104,9 @@ const AboutMe = () => {
               <Typography variant="subtitle1" color="inherit">
                 Mi nombre es Héctor y soy desarrollador web freelance.
                 Aprendiendo continuamente nuevas habilidades en el campo de la
-                programacion y las futuras demanas tecnologicas. <br />
+                programación y las futuras demandas tecnológicas. <br />
                 <br />
-                Me dedico a crear, actualizar, diseñar y mantener paginas web
+                Me dedico a crear, actualizar, diseñar y mantener páginas web
                 del lado del cliente y en el servidor.
               </Typography>
               <Button

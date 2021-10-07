@@ -153,7 +153,7 @@ const Skills = () => {
               </Typography>
               <Typography gutterBottom variant="body1">
                 El desarrollo Front-end consiste en crear los componenetes
-                visuales de las paginas web con diseños responsivos he
+                visuales de las páginas web con diseños responsivos e
                 interactivos para una mejor experiencia.
               </Typography>
               <div className={classes.progress}>
@@ -216,8 +216,8 @@ const Skills = () => {
               </Typography>
               <Typography gutterBottom variant="body1">
                 El desarrollo back-end es utilizado para referirse al área
-                lógica de toda la página web, la cual esta se encarga de la
-                funcionalidad del sitio, la seguridad y la optimizacion de los
+                lógica de toda la página web, la cual se encarga de la
+                funcionalidad del sitio, la seguridad y la optimización de los
                 recursos.
               </Typography>
               <div className={classes.progress}>
