@@ -1,9 +1,10 @@
 import React from "react";
+import BannerAni from "./Content/BannerAni";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 
-import img1 from "../img/fo2.png";
+// import img1 from "../img/fo2.png";
 
 import "../Css/styles.css";
 
@@ -104,7 +105,8 @@ const Banner = () => {
         <Typography className={classes.title2} variant="h3" color="initial">
           DESARROLLADOR <div className={classes.title3}>WEB</div>
         </Typography>
-        <img className={classes.img1} src={img1} alt="" />
+        <BannerAni/>
+        {/* <img className={classes.img1} src={img1} alt="" /> */}
       </div>
     </div>
   );

@@ -1,0 +1,235 @@
+.containerBannerAni {
+  .animated {
+    position: absolute;
+    opacity: 0;
+    // top: 100%;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+    // z-index: 1;
+  }
+  .z1 {
+    left: 90px;
+    width: 10px;
+    height: 10px;
+    animation-name: z1;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .z2 {
+    left: 200px;
+    width: 18px;
+    height: 18px;
+    animation-name: z1;
+    animation-delay: 8s;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+  }
+  .z3 {
+    left: 330px;
+    width: 15px;
+    height: 15px;
+    animation-name: z1;
+    animation-delay: 3s;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+  }
+  .z4 {
+    left: 420px;
+    width: 10px;
+    height: 10px;
+    animation-name: z1;
+    animation-delay: 0s;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+  }
+  .z5 {
+    left: 540px;
+    width: 18px;
+    height: 18px;
+    animation-name: z1;
+    animation-delay: 7s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .z6 {
+    left: 610px;
+    width: 15px;
+    height: 15px;
+    animation-name: z1;
+    animation-delay: 4s;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+  }
+  .z7 {
+    left: 730px;
+    width: 10px;
+    height: 10px;
+    animation-name: z1;
+    animation-delay: 5s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .z8 {
+    left: 720px;
+    width: 18px;
+    height: 18px;
+    animation-name: z1;
+    animation-delay: 0s;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+  }
+  .z9 {
+    left: 850px;
+    width: 15px;
+    height: 15px;
+    animation-name: z1;
+    animation-delay: 8s;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+  }
+  .z10 {
+    left: 900px;
+    width: 10px;
+    height: 10px;
+    animation-name: z1;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .z11 {
+    left: 1020px;
+    width: 18px;
+    height: 18px;
+    animation-name: z1;
+    animation-delay: 5s;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+  }
+  .z12 {
+    left: 1100px;
+    width: 15px;
+    height: 15px;
+    animation-name: z1;
+    animation-delay: 1s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .z13 {
+    left: 1220px;
+    width: 18px;
+    height: 18px;
+    animation-name: z1;
+    animation-delay: 6s;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+  }
+  .z14 {
+    left: 1290px;
+    width: 10px;
+    height: 10px;
+    animation-name: z1;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  .z15 {
+    left: 1370px;
+    width: 15px;
+    height: 15px;
+    animation-name: z1;
+    animation-delay: 5s;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes z1 {
+    0% {
+      opacity: 0;
+      top: 100%;
+      background-color: #fff;
+      box-shadow: 0 0 5px 1px rgba(255, 255, 255, 1);
+    }
+    15% {
+      opacity: 1;
+      background-color: #05f2db;
+      box-shadow: 0 0 5px 1px #05f2db;
+    }
+    99% {
+      opacity: 0;
+      top: -30px;
+      background-color: #034C8C;
+      box-shadow: 0 0 5px 1px #034C8C;
+    }
+  }
+}
+@include tv {
+  .containerBannerAni {
+    .z1,
+    .z2,
+    .z3,
+    .z4,
+    .z5,
+    .z6,
+    .z7,
+    .z8,
+    .z9,
+    .z10,
+    .z11,
+    .z12,
+    .z13,
+    .z14,
+    .z15 {
+      // position: fixed;
+    }
+  }
+}
+@include desk {
+  .containerBannerAni {
+    .z13,
+    .z14,
+    .z15 {
+      display: none;
+    }
+  }
+}
+@include lap {
+  .containerBannerAni {
+    .z11,
+    .z12 {
+      display: none;
+    }
+  }
+}
+@include tab {
+  .containerBannerAni {
+    .z9,
+    .z10 {
+      display: none;
+    }
+  }
+}
+@include movLarge {
+  .containerBannerAni {
+    .z6,
+    .z7,
+    .z8 {
+      display: none;
+    }
+  }
+}
+@include movNormal {
+  .containerBannerAni {
+    .z5 {
+      display: none;
+    }
+  }
+}
+@include movSmall {
+  .containerBannerAni {
+    .z4 {
+      display: none;
+    }
+  }
+}

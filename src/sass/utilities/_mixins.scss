@@ -1,0 +1,35 @@
+@mixin tv {
+  @media screen and (max-width: 1440px)  {
+    @content;
+  }
+}
+@mixin desk {
+  @media screen and (max-width: 1200px)  {
+    @content;
+  }
+}
+@mixin lap {
+  @media screen and (max-width: 1024px)  {
+    @content;
+  }
+}
+@mixin tab {
+  @media  screen and (max-width: 769px)  {
+    @content;
+  }
+}
+@mixin movLarge {
+  @media  screen and (max-width: 600px)  {
+    @content;
+  }
+}
+@mixin movNormal {
+  @media  screen and (max-width: 450px)  {
+    @content;
+  }
+}
+@mixin movSmall {
+  @media  screen and (max-width: 350px)  {
+    @content;
+  }
+}

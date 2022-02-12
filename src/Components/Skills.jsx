@@ -179,7 +179,7 @@ const Skills = () => {
                 <Grid container className={classes.text1}>
                   <Grid item xs={4}>
                     <Typography className={classes.text2}>
-                      Material UI
+                      SASS
                     </Typography>
                   </Grid>
                   <Grid item xs={4}>

@@ -98,6 +98,7 @@ const theme = createMuiTheme({
         body: {
           fontFamily: "Roboto",
           backgroundColor: "#fff",
+          overflowX: "hidden",
           overflowY: "overlay",
           scrollBehavior: "smooth",
         },

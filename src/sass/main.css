@@ -1,0 +1,308 @@
+.containerBannerAni .animated {
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 5px 1px white;
+          box-shadow: 0 0 5px 1px white;
+  background-color: white;
+}
+
+.containerBannerAni .z1 {
+  left: 90px;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z2 {
+  left: 200px;
+  width: 18px;
+  height: 18px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z3 {
+  left: 330px;
+  width: 15px;
+  height: 15px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z4 {
+  left: 420px;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z5 {
+  left: 540px;
+  width: 18px;
+  height: 18px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 7s;
+          animation-delay: 7s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z6 {
+  left: 610px;
+  width: 15px;
+  height: 15px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z7 {
+  left: 730px;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z8 {
+  left: 720px;
+  width: 18px;
+  height: 18px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z9 {
+  left: 850px;
+  width: 15px;
+  height: 15px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z10 {
+  left: 900px;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z11 {
+  left: 1020px;
+  width: 18px;
+  height: 18px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z12 {
+  left: 1100px;
+  width: 15px;
+  height: 15px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z13 {
+  left: 1220px;
+  width: 18px;
+  height: 18px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+  -webkit-animation-duration: 13s;
+          animation-duration: 13s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z14 {
+  left: 1290px;
+  width: 10px;
+  height: 10px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.containerBannerAni .z15 {
+  left: 1370px;
+  width: 15px;
+  height: 15px;
+  -webkit-animation-name: z1;
+          animation-name: z1;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes z1 {
+  0% {
+    opacity: 0;
+    top: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px 1px white;
+            box-shadow: 0 0 5px 1px white;
+  }
+  15% {
+    opacity: 1;
+    background-color: #05f2db;
+    -webkit-box-shadow: 0 0 5px 1px #05f2db;
+            box-shadow: 0 0 5px 1px #05f2db;
+  }
+  99% {
+    opacity: 0;
+    top: -30px;
+    background-color: #034C8C;
+    -webkit-box-shadow: 0 0 5px 1px #034C8C;
+            box-shadow: 0 0 5px 1px #034C8C;
+  }
+}
+
+@keyframes z1 {
+  0% {
+    opacity: 0;
+    top: 100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 5px 1px white;
+            box-shadow: 0 0 5px 1px white;
+  }
+  15% {
+    opacity: 1;
+    background-color: #05f2db;
+    -webkit-box-shadow: 0 0 5px 1px #05f2db;
+            box-shadow: 0 0 5px 1px #05f2db;
+  }
+  99% {
+    opacity: 0;
+    top: -30px;
+    background-color: #034C8C;
+    -webkit-box-shadow: 0 0 5px 1px #034C8C;
+            box-shadow: 0 0 5px 1px #034C8C;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .containerBannerAni .z13,
+  .containerBannerAni .z14,
+  .containerBannerAni .z15 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .containerBannerAni .z11,
+  .containerBannerAni .z12 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .containerBannerAni .z9,
+  .containerBannerAni .z10 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .containerBannerAni .z6,
+  .containerBannerAni .z7,
+  .containerBannerAni .z8 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .containerBannerAni .z5 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .containerBannerAni .z4 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
